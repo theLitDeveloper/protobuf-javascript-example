@@ -23,11 +23,8 @@ protoc --js_out=import_style=commonjs,binary:. hackers.proto
 node index2
 ```
 
-## Results
+## Conclusion
 
-| File name | File size |
-|-|-|
-|hackers.json|486|
-|hackers.bin|217|
-
-**You saved 55,35% (269 bytes)!!!**
+Using protobuf instead of JSON in this example saves about 60 percent compared to JSON. But you need 
+to use and maintain schemas to use protobuf. Therefore, it is most likely worth using it for larger 
+amounts of data and/or requests.
