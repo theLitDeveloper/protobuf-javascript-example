@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Hacker {
+    int32 id = 1;
+    string firstname = 2;
+    string pseudonym = 3;
+}
+
+message Hackers {
+    repeated Hacker hackers = 1;
+}

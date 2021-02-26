@@ -1,0 +1,23 @@
+{
+  "name": "protobuf-example",
+  "version": "1.0.0",
+  "description": "| File name | File size | |-|-| |developers.json|453| |||",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theLitDeveloper/protobuf-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theLitDeveloper/protobuf-example/issues"
+  },
+  "homepage": "https://github.com/theLitDeveloper/protobuf-example#readme",
+  "dependencies": {
+    "google-protobuf": "^3.15.3"
+  }
+}
