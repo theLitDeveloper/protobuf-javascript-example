@@ -1,5 +1,11 @@
 # protobuf javascript example
 
+## Prerequisites
+Make sure you have the following software on your machine before trying this example:
+- Git
+- node, npm
+- protoc
+
 ## Installation
 ```bash
 git clone https://github.com/theLitDeveloper/protobuf-javascript-example.git
